@@ -1,0 +1,23 @@
+# Project environment
+.venv
+.env
+
+# Logs
+logs
+*.log
+
+# exclude secrets
+.env
+.env*
+
+# exclude cache
+*.pyc
+__pycache__/
+
+# testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ignore temp
+temp
