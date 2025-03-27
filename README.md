@@ -9,7 +9,7 @@ This repo contains the solutions for the PortSwigger Labs available in the Acade
 |    | **Server-side topics** ||||
 | 01 | SQL injection |  0/2 |  0/16 | - |
 | 02 | Authentication |  0/3 |  0/9 |  0/2 |
-| 03 | Path traversal |  0/1 |  0/5 | - |
+| 03 | Path traversal |  1/1 |  0/5 | - |
 | 04 | Command inection |  0/1 |  0/4 | - |
 | 05 | Business logic vulnerabilities |  0/4 |  0/7 | - |
 | 06 | Information disclosure |  0/4 |  0/1 | - |
