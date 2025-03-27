@@ -20,7 +20,7 @@ The image catalog showcases a collection of novelty and quirky products, includi
 
 ## Solution
 
-In the requester tab, I tried to retrieve the content of `/etc/passwd` but got a **400 Bad request** error. After adding three successive `../` I was able to receive the content of `/etc/passwd`. *It is a relative path traversal technique used to move upward in the directory structure by navigating to parent directories.*
+In the requester tab, I tried to retrieve the content of `etc/passwd` using absolute path `/etc/passwd` but got a **400 Bad request** error. After adding three successive `../` I was able to receive the content of `/etc/passwd`. *It is a relative path traversal technique used to move upward in the directory structure by navigating to parent directories.*
 
 ```bash
 /image?filename=../../../etc/passwd
