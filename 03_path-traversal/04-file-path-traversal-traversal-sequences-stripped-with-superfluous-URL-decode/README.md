@@ -20,15 +20,11 @@ Solutions from previous labs won't work here because, as stated in the lab descr
 
 To bypass this, we can URL-encode the encoded string again.
 
-```bash
-../ --> ..%2F --> ..%252F
-```
+`../ --> ..%2F --> ..%252F`
 
 OR
 
-```bash
-../../../ --> %2e%2e%2f%2e%2e%2f%2e%2e%2f -> %25%32%65%25%32%65%25%32%66%25%32%65%25%32%65%25%32%66%25%32%65%25%32%65%25%32%66
-```
+`../../../ --> %2e%2e%2f%2e%2e%2f%2e%2e%2f -> %25%32%65%25%32%65%25%32%66%25%32%65%25%32%65%25%32%66%25%32%65%25%32%65%25%32%66`
 
 ## Payload
 
