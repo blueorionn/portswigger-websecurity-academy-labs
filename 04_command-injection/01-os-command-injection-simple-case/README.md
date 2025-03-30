@@ -6,7 +6,7 @@
 
 ## Analysis
 
-The initial step is to understand how the vulnerable application works and gather information about the target system.The application showcases an image catalog with an image, a title, a price, a star rating, and a "View details" button. The view details button redirects to the product information page. The product page contains a Check stock functionality.
+The initial step is to understand how the vulnerable application works and gather information about the target system. The application showcases an image catalog with an image, a title, a price, a star rating, and a "View details" button. The view details button redirects to the product information page. The product page contains a Check stock functionality.
 
 The check stock button issues a post request on submission with two parameters: `productId` and `storeId`. The response is of `Content-Type: text/plain;`
 
