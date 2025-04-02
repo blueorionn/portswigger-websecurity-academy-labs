@@ -6,7 +6,7 @@
 
 ## Analysis
 
-As usual, the initial step is to understand how the vulnerable application works and gather information about the target system. The application also serves as a collection of blog posts, but unlike the previous one, this application doesn't have a search bar.
+As usual, the initial step is to understand how the vulnerable application works and gather information about the target system. This application also serves as a collection of blog posts, but unlike the previous one, this application doesn't have a search bar.
 
 Let's take a look at the posts itself. The post has a thumbnail (which is loaded from the `/image` directory), author, date of the post, and content. It also has a comment section.
 
