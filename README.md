@@ -22,7 +22,7 @@ This repo contains the solutions for the PortSwigger Labs available in the Acade
 | 13 | API testing |  0/1 |  0/3 |  0/1 |
 | 14 | Web cache deception |  0/1 |  0/3 |  0/1 |
 |    | **Client-side topics** ||||
-| 15 | Cross-site scripting (XSS) |  0/9 | 0/15 | 0/6 |
+| 15 | Cross-site scripting (XSS) | :white_check_mark: 9/9 | 0/15 | 0/6 |
 | 16 | Cross-site request forgery (CSRF) |  0/1 |  0/11 | - |
 | 17 | Cross-origin resource sharing (CORS) |  0/2 |  0/1 | -  |
 | 18 | Clickjacking |  0/3 |  0/2 | - |
