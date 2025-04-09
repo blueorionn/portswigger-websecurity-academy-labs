@@ -7,7 +7,7 @@ This repo contains the solutions for the PortSwigger Labs available in the Acade
 | ID | Topic | Apprentice | Practitioner | Expert |
 | --- | --- | :---: | :---: | :---: |
 |    | **Server-side topics** ||||
-| 01 | SQL injection |  0/2 |  0/16 | - |
+| 01 | SQL injection | :white_check_mark: 2/2 |  0/16 | - |
 | 02 | Authentication |  0/3 |  0/9 |  0/2 |
 | 03 | Path traversal | :white_check_mark: 1/1 | :white_check_mark: 5/5 | - |
 | 04 | Command injection | :white_check_mark: 1/1 |  2/4 | - |
