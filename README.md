@@ -17,7 +17,7 @@ This repo contains the solutions for the PortSwigger Labs available in the Acade
 | 08 | File upload vulnerabilities |  0/2 |  0/4 | 0/1 |
 | 09 | Race conditions |  0/1 |  0/4 | 0/1 |
 | 10 | Server-side request forgery (SSRF) |  0/2 |  0/3 |  0/2 |
-| 11 | XXE injection |  0/2 |  0/6 |  0/1 |
+| 11 | XXE injection | :white_check_mark: 2/2 |  0/6 |  0/1 |
 | 12 | NoSQL injection | :white_check_mark: 2/2 | :white_check_mark: 2/2 |  - |
 | 13 | API testing |  0/1 |  0/3 |  0/1 |
 | 14 | Web cache deception |  0/1 |  0/3 |  0/1 |
