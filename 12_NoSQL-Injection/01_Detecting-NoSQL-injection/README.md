@@ -11,7 +11,7 @@ The product category filter for this lab is powered by a MongoDB NoSQL database 
 The application behaves differently (`throw 500 Internal server error`) if an apostrophe **`'`** is added after the value of the category filter.
 
 ```bash
-ilter?category=Accessories'
+/filter?category=Accessories'
 ```
 
 ![Internal Server Error](img/internal-server-error.png)
