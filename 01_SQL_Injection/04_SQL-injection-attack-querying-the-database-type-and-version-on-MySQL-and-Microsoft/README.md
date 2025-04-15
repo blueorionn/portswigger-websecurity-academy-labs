@@ -19,7 +19,7 @@ Let's append an apostrophe at the end of the query to observe if the application
 Using `ORDER BY` clauses, it was determined that the Query returns **two** columns.
 
 ```bash
-'+ORDER+BY+2+--+
+/filter?category=Accessories'+ORDER+BY+2+--+
 ```
 
 ## Payload
