@@ -1,6 +1,6 @@
-# SQL injection attack, listing the database contents on Oracle
+# SQL injection UNION attack, determining the number of columns returned by the query
 
-**Lab Url**: [https://portswigger.net/web-security/sql-injection/examining-the-database/lab-listing-database-contents-oracle](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-listing-database-contents-oracle)
+**Lab Url**: [https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns](https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns)
 
 ![Lab Description](img/lab-description.png)
 
