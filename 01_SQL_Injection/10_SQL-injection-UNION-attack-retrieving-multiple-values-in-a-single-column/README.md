@@ -46,6 +46,8 @@ It seems like there is a mechanism on the backend that only returns the last col
 '+union+select+null,concat(username,'-',password)+from+users+--
 ```
 
+![Username Password](img/username-password.png)
+
 After retrieving the credentials log in as `administrator` to solve this lab.
 
-![Lab Solved]
+![Lab Solved](img/lab-solved.png)
