@@ -19,7 +19,7 @@ In my case, the query returns only one column.
 The second step is to determine which database is the application using. You can use [this cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet) to craft a payload that determines the database type.
 
 ```bash
-TrackingId=zmE1DO7belNvmYmn'+UNION+SELECT+banner+FROM+v$version+--
+TrackingId=YOUR-TRACKING-ID'+UNION+SELECT+banner+FROM+v$version+--
 ```
 
 ## Solution
