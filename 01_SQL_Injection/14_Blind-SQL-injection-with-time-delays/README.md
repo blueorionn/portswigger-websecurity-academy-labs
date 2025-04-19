@@ -18,7 +18,7 @@ Every database has its function, to pause execution for a given number of second
 
 Since we don't know which database the application is running we have to try each of them one by one.
 
-*In my case the below payload worked.*
+*In my case, the below payload worked.*
 
 ```bash
 TrackingId=YOUR-TRACKING-ID'%3B+SELECT+pg_sleep(10)+--
