@@ -1,4 +1,4 @@
-# Blind SQL injection with time delays
+# Blind SQL injection with time delays and information retrieval
 
 **Lab Url**: [https://portswigger.net/web-security/sql-injection/blind/lab-time-delays-info-retrieval](https://portswigger.net/web-security/sql-injection/blind/lab-time-delays-info-retrieval)
 
