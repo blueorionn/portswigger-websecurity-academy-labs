@@ -1,4 +1,4 @@
-# 🧪 PortSwigger WebSecurity Academy Labs
+# PortSwigger WebSecurity Academy Labs
 
 This repo contains the solutions for the PortSwigger Labs available in the Academy section of their website: [https://portswigger.net/web-security/all-labs](https://portswigger.net/web-security/all-labs)
 
@@ -13,7 +13,7 @@ This repo contains the solutions for the PortSwigger Labs available in the Acade
 | 04 | Command injection | :white_check_mark: 1/1 |  2/4 | - |
 | 05 | Business logic vulnerabilities |  0/4 |  0/7 | - |
 | 06 | Information disclosure | :white_check_mark: 4/4 | :white_check_mark: 1/1 | - |
-| 07 | Access control |  0/9 |  0/4 | - |
+| 07 | Access control | :white_check_mark: 9/9 |  0/4 | - |
 | 08 | File upload vulnerabilities |  0/2 |  0/4 | 0/1 |
 | 09 | Race conditions |  0/1 |  0/4 | 0/1 |
 | 10 | Server-side request forgery (SSRF) |  0/2 |  0/3 |  0/2 |
