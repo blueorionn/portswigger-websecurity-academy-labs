@@ -6,7 +6,7 @@
 
 ## Analysis
 
-Like the previous lab, this application also showcases an image catalog with an image, a title, a price, a star rating, and a "View Details" button. It also has a `/my-account` page that redirects to the `/login` page.
+This application contains a `/my-account` page that redirects to the `/login` page.
 
 Log in to the application using the credentials provided in the lab description. Notice that your ID is a random [GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier). It can't be guessed like in the previous lab. *`(e.g) /my-account?id=43eaba49-94ca-461b-bb8f-7c918e41cca0`*
 
