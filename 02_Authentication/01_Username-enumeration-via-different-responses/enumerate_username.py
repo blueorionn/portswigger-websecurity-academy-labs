@@ -6,18 +6,14 @@
 # aiohttp==3.11.16
 
 import requests
-import urllib3
 import asyncio
 import aiohttp
 from bs4 import BeautifulSoup
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
-
 async def enumerate_username(
     client: aiohttp.ClientSession,
-    url="https://YOUR-LAB-ID.web-security-academy.net/login",
-    payload_file="usernames.txt",
+    url: str,
+    payload_file: str,
 ):
     """Asynchronously enumerates usernames."""
     payloads = []
@@ -59,14 +55,12 @@ async def enumerate_username(
 async def main():
     """Main asynchronous function."""
     client = requests.session()
-    client.verify = False
-    client.proxies = {"http": "http://127.0.0.1:8080", "https": "http://127.0.0.1:8080"}
 
     async with aiohttp.ClientSession(trust_env=True) as client:
         await enumerate_username(
             client,
-            url="https://YOUR-LAB-ID.web-security-academy.net/login",
-            payload_file="your-username-file.txt",
+            url="https://0ae100d3049622b581d0b1c3009f005d.web-security-academy.net/login",
+            payload_file="temp/usernames.txt",
         )
 
 
