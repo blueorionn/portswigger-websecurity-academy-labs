@@ -41,6 +41,26 @@ This repo contains the solutions for the PortSwigger Labs available in the Acade
 | 30 | Prototype pollution | - | 0/9 | 0/1 |
 | 31 | Essential skills | - | 0/1 | - |
 
+## Install
+
+### Zip
+
+```bash
+wget -c https://github.com/blueorionn/portswigger-websecurity-academy-labs/archive/refs/heads/main.zip -O portswigger-websecurity-academy-labs.zip && unzip portswigger-websecurity-academy-labs.zip && rm -f portswigger-websecurity-academy-labs.zip
+```
+
+### Git: No commit history (faster)**
+
+```bash
+git clone --depth 1 https://github.com/blueorionn/portswigger-websecurity-academy-labs.git
+```
+
+### Git: Complete
+
+```bash
+git clone https://github.com/blueorionn/portswigger-websecurity-academy-labs.git
+```
+
 ## Contributing
 
 Contributions to improve the content and quality of the solutions are highly encouraged! If you’d like to add new labs, refine existing solutions, or correct any errors, please fork the repository and submit a pull request. Be sure to follow any established guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
