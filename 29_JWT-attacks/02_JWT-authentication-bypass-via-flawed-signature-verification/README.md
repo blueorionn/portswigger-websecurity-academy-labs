@@ -14,7 +14,7 @@ In the lab, log in to your account using the credentials `wiener` and `peter`. N
 
 Now, try to access the lab's admin page `/admin`. Notice that you will get a **401 Unauthorized** status code.
 
-![Admin Panel Unauthorized](img/admin-unauthorized.png)
+![Admin Panel Unauthorized](img/admin-panel-unauthorized.png)
 
 Examine the JWT token in the `JSON Web Token` Panel of the Repeater tab. Notice that the payload has a **`sub`** parameter. Modify the value of `sub` from `wiener` to `administrator` and change the `alg` value to `none` in the JWT header.
 
